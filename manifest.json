@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "PLA open in new tab Extension",
+    "version": "0.1",
+    "description": "Bandaid for right clicking links in Salesforce Pardot Lightning App",
+    "content_scripts": [
+        {
+            "matches": [
+            "<all_urls>"
+            ],
+            "js": ["jquery-3.4.1.slim.min.js", "content.js"],
+            "all_frames":true
+        }
+    ]
+}
