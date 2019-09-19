@@ -9,4 +9,7 @@ This will not work if you have Link Grabber turned on in the Lighting Extension
 ### Installation
 
 1. Clone this repo or download it as a zip.
-2. 
+2. Enter chrome://extensions in the address bar
+3. Click "Load unpacked"
+4. Navigate to the directory where you cloned or unzipped this repo and select it.
+5. Go forth and open Prospects in new tabs!!
