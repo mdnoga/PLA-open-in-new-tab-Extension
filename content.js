@@ -35,7 +35,7 @@ function buildLightningUrl(link) {
     // get current top level URL from session storage
     var canvasCleintDataJSON = sessionStorage.getItem('canvas_client_data')
     var canvasCleintData = jQuery.parseJSON(canvasCleintDataJSON);
-    var path = '/lightning/page/pardot/prospect?pardot__path=';
+    var path = '/lightning/page/pardot/home?pardot__path=';
     var lightningUrl = canvasCleintData.instanceUrl + path + link + '%3FrAndOmiZer=' + Math.random()
     return lightningUrl;
 }
